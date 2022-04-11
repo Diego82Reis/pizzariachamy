@@ -1,0 +1,140 @@
+@charset "ISO-8859-1";
+
+.fundo {
+	background-color: #ffff80;
+}
+.section-css {
+	width: 100%; 
+	height: 100%;
+}
+
+.card-cardapio {
+	text-align: center; 
+	white-space: nowrap;
+	background-image: url("/images/pizza1.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+ 	background-size: cover;
+	margin: 1vw;
+}
+
+.card-pedido {
+	text-align: center; 
+	white-space: nowrap;
+	background-image: url("/images/fundo_logo.jpg");
+	background-repeat: no-repeat;
+ 	background-size: cover;
+ 	background-position: center;
+	margin: 1vw;
+	margin-left: 4vw;
+}
+
+.card-index h3 {
+	font-size: 3vw;
+}
+.card-titulo-cardapio  {
+	color: #fff;
+	opacity: 0;
+}
+
+.card-titulo-pedido {
+	text-align: center; 
+	white-space: nowrap;
+	font-size: 2vw;
+	opacity: 0;
+}
+
+.index-pedido {
+	margin-top: 2px;
+}
+
+.card-cardapio:hover {
+	background-image: url("/images/pizza.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+ 	background-size: cover;
+ 	color: #fff;
+}
+
+.card-pedido:hover {
+	background-image: url("/images/pizza1.jpg");
+	
+	background-position: center;
+ 	background-size: cover;
+ 	color: #fff;
+}
+
+.card-cardapio:hover h3 {
+	opacity: 0;
+}
+
+.card-pedido:hover h3 {
+	opacity: 0;
+}
+
+.cardapio-table {
+	text-align: center;
+}
+
+.configuration-table-css {
+	text-align: center;
+}	
+
+
+
+@media (min-width: 300px) { 
+	.fundo {
+		background-color: #fff;	
+	}
+	.index-css {
+		flex-direction: column;
+		width: 150vw; 
+	}
+	.card-index {
+		width: 150vw;
+	}
+	.card-index-css {
+		width: 97vw;
+		height: 100%;
+		flex-direction: column;
+	}
+}
+
+@media (min-width: 576px) { 
+	.fundo {
+		background-color: #fff;	
+	}
+	.index-css {
+		flex-direction: row;
+		width: 100%; 
+	}
+	.card-index {
+		width: 100%
+	}
+	.card-index-css {
+		width: 100%;
+		height: 100%;
+		flex-direction: row;
+	}
+	
+	
+}
+
+@media (min-width: 768px) { 
+	.fundo {
+			background-color: #e2e2e2;	
+	}
+}
+
+@media (min-width: 992px) {
+	.fundo {
+			background-color: #f7f7f7;	
+	}
+}
+
+@media (min-width: 1200px) {
+	.fundo {
+			background-color: #fff000;	
+	}
+
+}
